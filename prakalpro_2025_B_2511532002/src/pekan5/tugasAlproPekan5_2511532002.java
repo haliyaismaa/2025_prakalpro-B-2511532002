@@ -7,13 +7,15 @@ public class tugasAlproPekan5_2511532002 {
 	int lebarMaks = 12;
 	int lebarIsi = lebarMaks + 4;
 	int lebarFrame = lebarIsi + 8;
-	
+
+	// Bagian Atas Bingkai
 	System.out.print("#");
 	for (int i = 0; i < lebarFrame; i++) {
 		System.out.print("=");
 	}
 	System.out.println("#");
-	
+
+	// Bagian Isi
 	for (int i=0; i< titik.length; i++) {
 		System.out.print("|");
 		
@@ -35,10 +37,13 @@ public class tugasAlproPekan5_2511532002 {
 		}
 		System.out.println("|");
 	}
+
+	// Bagian Bawah Bingkai
 	System.out.print("#");
 	for (int i = 0; i<lebarFrame; i++) {
 		System.out.print("=");
 	}
 	System.out.println("#");
 	}
+
 }
