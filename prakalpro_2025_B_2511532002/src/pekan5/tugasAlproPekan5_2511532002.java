@@ -45,5 +45,4 @@ public class tugasAlproPekan5_2511532002 {
 	}
 	System.out.println("#");
 	}
-
 }
