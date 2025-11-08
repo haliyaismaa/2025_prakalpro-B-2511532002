@@ -10,7 +10,7 @@ public class tugasAlproPekan6_2511532002 {
 		Random rand = new Random();
 		
 		String answer;
-		int dadu1, dadu2, hasil;
+		int dadu1, dadu2;
 		int tries=0;
 		int sum=0;
 		boolean running=true;
@@ -43,3 +43,4 @@ public class tugasAlproPekan6_2511532002 {
 	scan.close();
 	}
 }
+
